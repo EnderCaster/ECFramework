@@ -1,6 +1,6 @@
 {
-    "name": "EnderCaster Framework",
-    "description": "a simplest framwork based on swoole",
+    "name": "endercaster/ecs_framework",
+    "description": "A simplest framwork based on swoole",
     "authors": [
         {
             "name": "EnderCaster",
