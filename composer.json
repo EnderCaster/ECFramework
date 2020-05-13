@@ -1,0 +1,29 @@
+{
+    "name": "EnderCaster Framework",
+    "description": "a simplest framwork based on swoole",
+    "authors": [
+        {
+            "name": "EnderCaster",
+            "email": "mstext0@hotmail.com"
+        }
+    ],
+    "keywords": [
+        "EnderCaster",
+        "swoole"
+    ],
+    "require": {
+        "ext-mongodb": "*",
+        "ext-json": "*",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"classes/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "cp config-example.php config.php"
+        ]
+    }
+}
